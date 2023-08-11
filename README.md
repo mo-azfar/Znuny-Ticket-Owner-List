@@ -12,5 +12,6 @@
 
 		DynamicField = As per no 1. (Default: InvolvedOwner)
 		
+3. Will be populate upon Ticket Owner update.
 		
 ![owner-list](owner-list.png)
