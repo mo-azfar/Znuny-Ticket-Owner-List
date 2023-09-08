@@ -2,16 +2,13 @@
 - Populate previous and current ticket owner in dynamic field.
 - Based on Znuny 7.0.x
 
-1. Create a DynamicField
+1. The following DynamicField will be automaticall created by the opm. Please check.
 
-		Name: Anything (E.g: InvolvedOwner)
+		Name: InvolvedOwner
 		ObjectType = Ticket
 		FieldType = Text
 		
-2. Update Admin > System Configuration > Ticket::EventModulePost###3120-TicketOwnerList
-
-		DynamicField = As per no 1. (Default: InvolvedOwner)
 		
-3. Will be populate upon Ticket Owner update.
+2. Will be populate upon Ticket Owner update.
 		
 ![owner-list](owner-list.png)
